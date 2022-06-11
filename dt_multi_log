@@ -1,0 +1,265 @@
+y_segmentation.pth'
+loading dataset...
+loading dataset...
+2022-06-09 13:27:35,512 INFO data_folder = /home/madhu/Desktop/dl_lab/cv_assignment/data/COCO_mini5class_medium  
+pretrained_model_path = /home/madhu/Desktop/dl_lab/cv_assignment/data/binary_segmentation.pth  
+output_root = results  
+lr = 0.001  
+bs = 32  
+size = 256  
+snapshot_freq = 5  
+exp_suffix =   
+exp_name = lr0.001_bs32__local  
+jobid = local  
+output_folder = results/dt_multiclass/lr0.001_bs32__local  
+model_folder = results/dt_multiclass/lr0.001_bs32__local/models  
+logs_folder = results/dt_multiclass/lr0.001_bs32__local/logs
+2022-06-09 13:27:35,513 INFO train_data 15177
+2022-06-09 13:27:35,513 INFO val_data 3000
+2022-06-09 13:27:35,513 INFO Epoch 0
+2022-06-09 13:27:35,513 INFO Training
+2022-06-09 13:27:43,599 INFO Epoch 0.0000 Avg loss = 1.5987 mIoU = 0.0297 Time 8.09 (Total:8.09) Progress 0/474
+2022-06-09 13:34:06,601 INFO Epoch 0.1054 Avg loss = 0.8425 mIoU = 0.0400 Time 7.64 (Total:391.09) Progress 50/474
+2022-06-09 13:40:19,176 INFO Epoch 0.2108 Avg loss = 0.5330 mIoU = 0.1876 Time 7.55 (Total:763.66) Progress 100/474
+2022-06-09 13:46:20,766 INFO Epoch 0.3163 Avg loss = 0.4782 mIoU = 0.2379 Time 7.44 (Total:1125.25) Progress 150/474
+2022-06-09 13:52:20,732 INFO Epoch 0.4217 Avg loss = 0.4459 mIoU = 0.2740 Time 7.38 (Total:1485.22) Progress 200/474
+2022-06-09 13:58:21,851 INFO Epoch 0.5271 Avg loss = 0.4322 mIoU = 0.2992 Time 7.35 (Total:1846.34) Progress 250/474
+2022-06-09 14:04:22,570 INFO Epoch 0.6325 Avg loss = 0.4167 mIoU = 0.3269 Time 7.32 (Total:2207.06) Progress 300/474
+2022-06-09 14:11:01,410 INFO Epoch 0.7380 Avg loss = 0.4166 mIoU = 0.3411 Time 7.42 (Total:2605.90) Progress 350/474
+2022-06-09 14:17:25,866 INFO Epoch 0.8434 Avg loss = 0.4286 mIoU = 0.3264 Time 7.45 (Total:2990.35) Progress 400/474
+2022-06-09 14:24:52,597 INFO Epoch 0.9488 Avg loss = 0.4226 mIoU = 0.3262 Time 7.62 (Total:3437.08) Progress 450/474
+2022-06-09 14:27:57,984 INFO batch time: 7.64 total time: 3622.47
+2022-06-09 14:27:57,985 INFO Validating Epoch 0
+2022-06-09 14:38:00,763 INFO Epoch 0 Avg loss = 0.3811 mIoU = 0.1323 Time 602.78
+2022-06-09 14:38:00,763 INFO Epoch 1
+2022-06-09 14:38:00,763 INFO Training
+2022-06-09 14:38:09,713 INFO Epoch 0.9994 Avg loss = 0.3435 mIoU = 0.2883 Time 8.95 (Total:8.95) Progress 0/474
+2022-06-09 14:44:31,342 INFO Epoch 1.1048 Avg loss = 0.3796 mIoU = 0.3632 Time 7.63 (Total:390.58) Progress 50/474
+2022-06-09 14:50:59,808 INFO Epoch 1.2103 Avg loss = 0.3658 mIoU = 0.3633 Time 7.70 (Total:779.04) Progress 100/474
+2022-06-09 14:57:39,957 INFO Epoch 1.3157 Avg loss = 0.4103 mIoU = 0.3719 Time 7.80 (Total:1179.19) Progress 150/474
+2022-06-09 15:03:40,076 INFO Epoch 1.4211 Avg loss = 0.3888 mIoU = 0.3963 Time 7.65 (Total:1539.31) Progress 200/474
+2022-06-09 15:09:42,656 INFO Epoch 1.5265 Avg loss = 0.3742 mIoU = 0.3987 Time 7.57 (Total:1901.89) Progress 250/474
+2022-06-09 15:15:42,416 INFO Epoch 1.6319 Avg loss = 0.3701 mIoU = 0.3781 Time 7.50 (Total:2261.65) Progress 300/474
+2022-06-09 15:22:21,250 INFO Epoch 1.7374 Avg loss = 0.3711 mIoU = 0.3997 Time 7.57 (Total:2660.49) Progress 350/474
+2022-06-09 15:28:52,242 INFO Epoch 1.8428 Avg loss = 0.3510 mIoU = 0.4142 Time 7.60 (Total:3051.48) Progress 400/474
+2022-06-09 15:35:18,545 INFO Epoch 1.9482 Avg loss = 0.3717 mIoU = 0.4069 Time 7.62 (Total:3437.78) Progress 450/474
+2022-06-09 15:37:53,066 INFO batch time: 7.57 total time: 3592.30
+2022-06-09 15:37:53,067 INFO Validating Epoch 1
+2022-06-09 15:45:31,363 INFO Epoch 1 Avg loss = 0.3575 mIoU = 0.1461 Time 458.30
+2022-06-09 15:45:31,364 INFO ==> Saving BEST ... epoch1 loss0.358 miou0.146 
+2022-06-09 15:45:31,544 INFO Epoch 2
+2022-06-09 15:45:31,544 INFO Training
+2022-06-09 15:45:38,886 INFO Epoch 1.9988 Avg loss = 0.4733 mIoU = 0.3198 Time 7.34 (Total:7.34) Progress 0/474
+2022-06-09 15:51:17,213 INFO Epoch 2.1042 Avg loss = 0.3612 mIoU = 0.4087 Time 6.74 (Total:345.67) Progress 50/474
+2022-06-09 15:56:56,648 INFO Epoch 2.2097 Avg loss = 0.3483 mIoU = 0.3933 Time 6.77 (Total:685.10) Progress 100/474
+2022-06-09 16:02:32,325 INFO Epoch 2.3151 Avg loss = 0.3670 mIoU = 0.3977 Time 6.75 (Total:1020.78) Progress 150/474
+2022-06-09 16:08:09,585 INFO Epoch 2.4205 Avg loss = 0.3564 mIoU = 0.3982 Time 6.75 (Total:1358.04) Progress 200/474
+2022-06-09 16:13:46,706 INFO Epoch 2.5259 Avg loss = 0.3556 mIoU = 0.4297 Time 6.74 (Total:1695.16) Progress 250/474
+2022-06-09 16:19:26,019 INFO Epoch 2.6314 Avg loss = 0.3329 mIoU = 0.4136 Time 6.75 (Total:2034.47) Progress 300/474
+2022-06-09 16:25:09,727 INFO Epoch 2.7368 Avg loss = 0.3427 mIoU = 0.4155 Time 6.77 (Total:2378.18) Progress 350/474
+2022-06-09 16:30:46,386 INFO Epoch 2.8422 Avg loss = 0.3375 mIoU = 0.4202 Time 6.76 (Total:2714.84) Progress 400/474
+2022-06-09 16:36:24,396 INFO Epoch 2.9476 Avg loss = 0.3606 mIoU = 0.4276 Time 6.76 (Total:3052.85) Progress 450/474
+2022-06-09 16:39:00,013 INFO batch time: 6.76 total time: 3208.47
+2022-06-09 16:39:00,013 INFO Validating Epoch 2
+2022-06-09 16:46:33,664 INFO Epoch 2 Avg loss = 0.3398 mIoU = 0.1592 Time 453.65
+2022-06-09 16:46:33,665 INFO ==> Saving BEST ... epoch2 loss0.340 miou0.159 
+2022-06-09 16:46:33,900 INFO Epoch 3
+2022-06-09 16:46:33,900 INFO Training
+2022-06-09 16:46:41,272 INFO Epoch 2.9982 Avg loss = 0.5516 mIoU = 0.2285 Time 7.37 (Total:7.37) Progress 0/474
+2022-06-09 16:52:19,639 INFO Epoch 3.1036 Avg loss = 0.3305 mIoU = 0.4236 Time 6.75 (Total:345.74) Progress 50/474
+2022-06-09 16:57:59,110 INFO Epoch 3.2091 Avg loss = 0.3389 mIoU = 0.4338 Time 6.77 (Total:685.21) Progress 100/474
+2022-06-09 17:03:46,450 INFO Epoch 3.3145 Avg loss = 0.3342 mIoU = 0.4303 Time 6.83 (Total:1032.55) Progress 150/474
+2022-06-09 17:09:42,176 INFO Epoch 3.4199 Avg loss = 0.3344 mIoU = 0.4225 Time 6.90 (Total:1388.28) Progress 200/474
+2022-06-09 17:15:37,972 INFO Epoch 3.5253 Avg loss = 0.3555 mIoU = 0.4148 Time 6.94 (Total:1744.07) Progress 250/474
+2022-06-09 17:22:11,276 INFO Epoch 3.6308 Avg loss = 0.3410 mIoU = 0.4304 Time 7.09 (Total:2137.38) Progress 300/474
+2022-06-09 17:28:32,248 INFO Epoch 3.7362 Avg loss = 0.3486 mIoU = 0.4166 Time 7.17 (Total:2518.35) Progress 350/474
+2022-06-09 17:34:40,777 INFO Epoch 3.8416 Avg loss = 0.3192 mIoU = 0.4120 Time 7.19 (Total:2886.88) Progress 400/474
+2022-06-09 17:41:42,462 INFO Epoch 3.9470 Avg loss = 0.3363 mIoU = 0.4247 Time 7.33 (Total:3308.56) Progress 450/474
+2022-06-09 17:44:51,108 INFO batch time: 7.37 total time: 3497.21
+2022-06-09 17:44:51,109 INFO Validating Epoch 3
+2022-06-09 17:53:05,152 INFO Epoch 3 Avg loss = 0.3347 mIoU = 0.1669 Time 494.04
+2022-06-09 17:53:05,153 INFO ==> Saving BEST ... epoch3 loss0.335 miou0.167 
+2022-06-09 17:53:05,771 INFO Epoch 4
+2022-06-09 17:53:05,771 INFO Training
+2022-06-09 17:53:13,397 INFO Epoch 3.9976 Avg loss = 0.2591 mIoU = 0.3932 Time 7.62 (Total:7.62) Progress 0/474
+2022-06-09 17:59:37,474 INFO Epoch 4.1031 Avg loss = 0.3313 mIoU = 0.4191 Time 7.65 (Total:391.70) Progress 50/474
+2022-06-09 18:06:35,184 INFO Epoch 4.2085 Avg loss = 0.3409 mIoU = 0.4322 Time 8.00 (Total:809.41) Progress 100/474
+2022-06-09 18:14:11,214 INFO Epoch 4.3139 Avg loss = 0.3362 mIoU = 0.4463 Time 8.37 (Total:1265.44) Progress 150/474
+2022-06-09 18:22:30,913 INFO Epoch 4.4193 Avg loss = 0.3307 mIoU = 0.4342 Time 8.77 (Total:1765.14) Progress 200/474
+2022-06-09 18:31:27,220 INFO Epoch 4.5247 Avg loss = 0.3269 mIoU = 0.4317 Time 9.16 (Total:2301.45) Progress 250/474
+2022-06-09 18:38:04,434 INFO Epoch 4.6302 Avg loss = 0.3191 mIoU = 0.4353 Time 8.96 (Total:2698.66) Progress 300/474
+2022-06-09 18:45:48,350 INFO Epoch 4.7356 Avg loss = 0.3440 mIoU = 0.4310 Time 9.00 (Total:3162.58) Progress 350/474
+2022-06-09 18:52:19,167 INFO Epoch 4.8410 Avg loss = 0.3168 mIoU = 0.4377 Time 8.85 (Total:3553.40) Progress 400/474
+2022-06-09 18:58:05,290 INFO Epoch 4.9464 Avg loss = 0.3198 mIoU = 0.4543 Time 8.64 (Total:3899.52) Progress 450/474
+2022-06-09 19:01:52,146 INFO batch time: 8.70 total time: 4126.37
+2022-06-09 19:01:52,146 INFO Validating Epoch 4
+2022-06-09 19:11:02,650 INFO Epoch 4 Avg loss = 0.3272 mIoU = 0.1750 Time 550.50
+2022-06-09 19:11:02,650 INFO ==> Saving BEST ... epoch4 loss0.327 miou0.175 
+2022-06-09 19:11:02,909 INFO Epoch 5
+2022-06-09 19:11:02,909 INFO Training
+2022-06-09 19:11:11,476 INFO Epoch 4.9970 Avg loss = 0.2568 mIoU = 0.4560 Time 8.57 (Total:8.57) Progress 0/474
+2022-06-09 19:17:45,441 INFO Epoch 5.1025 Avg loss = 0.3164 mIoU = 0.4459 Time 7.86 (Total:402.53) Progress 50/474
+2022-06-09 19:24:01,941 INFO Epoch 5.2079 Avg loss = 0.3051 mIoU = 0.4699 Time 7.70 (Total:779.03) Progress 100/474
+2022-06-09 19:30:11,440 INFO Epoch 5.3133 Avg loss = 0.3186 mIoU = 0.4517 Time 7.60 (Total:1148.53) Progress 150/474
+2022-06-09 19:36:41,505 INFO Epoch 5.4187 Avg loss = 0.3122 mIoU = 0.4352 Time 7.65 (Total:1538.60) Progress 200/474
+2022-06-09 19:42:54,759 INFO Epoch 5.5241 Avg loss = 0.3382 mIoU = 0.4190 Time 7.61 (Total:1911.85) Progress 250/474
+2022-06-09 19:49:23,364 INFO Epoch 5.6296 Avg loss = 0.3314 mIoU = 0.4354 Time 7.63 (Total:2300.45) Progress 300/474
+2022-06-09 19:56:23,135 INFO Epoch 5.7350 Avg loss = 0.3308 mIoU = 0.4471 Time 7.74 (Total:2720.23) Progress 350/474
+2022-06-09 20:03:38,921 INFO Epoch 5.8404 Avg loss = 0.3389 mIoU = 0.4334 Time 7.86 (Total:3156.01) Progress 400/474
+2022-06-09 20:09:58,168 INFO Epoch 5.9458 Avg loss = 0.3178 mIoU = 0.4576 Time 7.83 (Total:3535.26) Progress 450/474
+2022-06-09 20:13:03,299 INFO batch time: 7.84 total time: 3720.39
+2022-06-09 20:13:03,299 INFO Validating Epoch 5
+2022-06-09 20:22:14,925 INFO Epoch 5 Avg loss = 0.3198 mIoU = 0.1741 Time 551.62
+2022-06-09 20:22:14,925 INFO ==> Saving  ... epoch5 loss0.320 miou0.174 
+2022-06-09 20:22:15,120 INFO Epoch 6
+2022-06-09 20:22:15,120 INFO Training
+2022-06-09 20:22:23,655 INFO Epoch 5.9964 Avg loss = 0.2964 mIoU = 0.5035 Time 8.53 (Total:8.53) Progress 0/474
+2022-06-09 20:29:05,429 INFO Epoch 6.1019 Avg loss = 0.3221 mIoU = 0.4386 Time 8.01 (Total:410.31) Progress 50/474
+2022-06-09 20:36:15,013 INFO Epoch 6.2073 Avg loss = 0.3217 mIoU = 0.4425 Time 8.30 (Total:839.89) Progress 100/474
+2022-06-09 20:42:23,186 INFO Epoch 6.3127 Avg loss = 0.3015 mIoU = 0.4836 Time 7.99 (Total:1208.07) Progress 150/474
+2022-06-09 20:48:30,852 INFO Epoch 6.4181 Avg loss = 0.3152 mIoU = 0.4649 Time 7.83 (Total:1575.73) Progress 200/474
+2022-06-09 20:55:47,942 INFO Epoch 6.5236 Avg loss = 0.3336 mIoU = 0.4580 Time 8.01 (Total:2012.82) Progress 250/474
+2022-06-09 21:02:31,876 INFO Epoch 6.6290 Avg loss = 0.3197 mIoU = 0.4499 Time 8.02 (Total:2416.75) Progress 300/474
+2022-06-09 21:09:02,615 INFO Epoch 6.7344 Avg loss = 0.3023 mIoU = 0.4520 Time 7.99 (Total:2807.49) Progress 350/474
+2022-06-09 21:15:41,459 INFO Epoch 6.8398 Avg loss = 0.3158 mIoU = 0.4660 Time 7.99 (Total:3206.34) Progress 400/474
+2022-06-09 21:22:27,700 INFO Epoch 6.9452 Avg loss = 0.3211 mIoU = 0.4433 Time 8.00 (Total:3612.58) Progress 450/474
+2022-06-09 21:25:24,580 INFO batch time: 7.99 total time: 3789.46
+2022-06-09 21:25:24,580 INFO Validating Epoch 6
+2022-06-09 21:34:05,021 INFO Epoch 6 Avg loss = 0.3181 mIoU = 0.1853 Time 520.44
+2022-06-09 21:34:05,021 INFO ==> Saving BEST ... epoch6 loss0.318 miou0.185 
+2022-06-09 21:34:05,651 INFO Epoch 7
+2022-06-09 21:34:05,652 INFO Training
+2022-06-09 21:34:14,669 INFO Epoch 6.9958 Avg loss = 0.3010 mIoU = 0.4295 Time 9.02 (Total:9.02) Progress 0/474
+2022-06-09 21:41:06,194 INFO Epoch 7.1013 Avg loss = 0.3114 mIoU = 0.4557 Time 8.22 (Total:420.54) Progress 50/474
+2022-06-09 21:47:14,054 INFO Epoch 7.2067 Avg loss = 0.3105 mIoU = 0.4450 Time 7.79 (Total:788.40) Progress 100/474
+2022-06-09 21:53:21,307 INFO Epoch 7.3121 Avg loss = 0.3376 mIoU = 0.4447 Time 7.64 (Total:1155.65) Progress 150/474
+2022-06-09 21:59:27,982 INFO Epoch 7.4175 Avg loss = 0.3062 mIoU = 0.4737 Time 7.57 (Total:1522.33) Progress 200/474
+2022-06-09 22:05:49,618 INFO Epoch 7.5230 Avg loss = 0.2860 mIoU = 0.4830 Time 7.57 (Total:1903.96) Progress 250/474
+2022-06-09 22:12:09,595 INFO Epoch 7.6284 Avg loss = 0.3226 mIoU = 0.4404 Time 7.58 (Total:2283.94) Progress 300/474
+2022-06-09 22:18:35,316 INFO Epoch 7.7338 Avg loss = 0.3183 mIoU = 0.4309 Time 7.60 (Total:2669.66) Progress 350/474
+2022-06-09 22:25:09,476 INFO Epoch 7.8392 Avg loss = 0.3014 mIoU = 0.4422 Time 7.63 (Total:3063.82) Progress 400/474
+2022-06-09 22:32:06,911 INFO Epoch 7.9447 Avg loss = 0.3259 mIoU = 0.4524 Time 7.71 (Total:3481.26) Progress 450/474
+2022-06-09 22:35:18,037 INFO batch time: 7.74 total time: 3672.38
+2022-06-09 22:35:18,037 INFO Validating Epoch 7
+2022-06-09 22:44:08,887 INFO Epoch 7 Avg loss = 0.3114 mIoU = 0.1886 Time 530.85
+2022-06-09 22:44:08,888 INFO ==> Saving BEST ... epoch7 loss0.311 miou0.189 
+2022-06-09 22:44:09,508 INFO Epoch 8
+2022-06-09 22:44:09,508 INFO Training
+2022-06-09 22:44:19,084 INFO Epoch 7.9953 Avg loss = 0.3151 mIoU = 0.4650 Time 9.57 (Total:9.57) Progress 0/474
+2022-06-09 22:50:42,810 INFO Epoch 8.1007 Avg loss = 0.3028 mIoU = 0.4590 Time 7.68 (Total:393.30) Progress 50/474
+2022-06-09 22:57:09,724 INFO Epoch 8.2061 Avg loss = 0.3114 mIoU = 0.4394 Time 7.71 (Total:780.22) Progress 100/474
+2022-06-09 23:03:54,198 INFO Epoch 8.3115 Avg loss = 0.3068 mIoU = 0.4725 Time 7.83 (Total:1184.69) Progress 150/474
+2022-06-09 23:10:24,087 INFO Epoch 8.4169 Avg loss = 0.2960 mIoU = 0.4606 Time 7.83 (Total:1574.58) Progress 200/474
+2022-06-09 23:16:56,521 INFO Epoch 8.5224 Avg loss = 0.3189 mIoU = 0.4405 Time 7.82 (Total:1967.01) Progress 250/474
+2022-06-09 23:25:12,555 INFO Epoch 8.6278 Avg loss = 0.3180 mIoU = 0.4650 Time 8.17 (Total:2463.05) Progress 300/474
+2022-06-09 23:33:45,376 INFO Epoch 8.7332 Avg loss = 0.3186 mIoU = 0.4520 Time 8.47 (Total:2975.87) Progress 350/474
+2022-06-09 23:40:41,054 INFO Epoch 8.8386 Avg loss = 0.2855 mIoU = 0.4828 Time 8.45 (Total:3391.55) Progress 400/474
+2022-06-09 23:46:47,731 INFO Epoch 8.9441 Avg loss = 0.3080 mIoU = 0.4817 Time 8.33 (Total:3758.22) Progress 450/474
+2022-06-09 23:49:32,763 INFO batch time: 8.27 total time: 3923.25
+2022-06-09 23:49:32,763 INFO Validating Epoch 8
+2022-06-09 23:57:27,779 INFO Epoch 8 Avg loss = 0.3088 mIoU = 0.1836 Time 475.02
+2022-06-09 23:57:27,779 INFO Epoch 9
+2022-06-09 23:57:27,779 INFO Training
+2022-06-09 23:57:35,626 INFO Epoch 8.9947 Avg loss = 0.2691 mIoU = 0.3075 Time 7.85 (Total:7.85) Progress 0/474
+2022-06-10 00:03:35,583 INFO Epoch 9.1001 Avg loss = 0.3207 mIoU = 0.4809 Time 7.18 (Total:367.80) Progress 50/474
+2022-06-10 00:10:05,894 INFO Epoch 9.2055 Avg loss = 0.3217 mIoU = 0.4548 Time 7.49 (Total:758.11) Progress 100/474
+2022-06-10 00:36:09,612 INFO Epoch 9.3109 Avg loss = 0.3022 mIoU = 0.4756 Time 15.37 (Total:2321.83) Progress 150/474
+2022-06-10 01:05:19,473 INFO Epoch 9.4164 Avg loss = 0.3012 mIoU = 0.4767 Time 20.25 (Total:4071.69) Progress 200/474
+2022-06-10 01:24:17,728 INFO Epoch 9.5218 Avg loss = 0.3005 mIoU = 0.4294 Time 20.75 (Total:5209.95) Progress 250/474
+2022-06-10 01:31:46,614 INFO Epoch 9.6272 Avg loss = 0.2990 mIoU = 0.4686 Time 18.79 (Total:5658.83) Progress 300/474
+2022-06-10 01:39:22,385 INFO Epoch 9.7326 Avg loss = 0.2865 mIoU = 0.4923 Time 17.41 (Total:6114.60) Progress 350/474
+2022-06-10 01:45:38,194 INFO Epoch 9.8380 Avg loss = 0.3098 mIoU = 0.4694 Time 16.18 (Total:6490.41) Progress 400/474
+2022-06-10 01:52:07,693 INFO Epoch 9.9435 Avg loss = 0.3046 mIoU = 0.4616 Time 15.25 (Total:6879.91) Progress 450/474
+2022-06-10 01:54:56,774 INFO batch time: 14.87 total time: 7048.99
+2022-06-10 01:54:56,774 INFO Validating Epoch 9
+2022-06-10 02:03:04,131 INFO Epoch 9 Avg loss = 0.3064 mIoU = 0.1916 Time 487.36
+2022-06-10 02:03:04,131 INFO ==> Saving BEST ... epoch9 loss0.306 miou0.192 
+2022-06-10 02:03:04,392 INFO Epoch 10
+2022-06-10 02:03:04,392 INFO Training
+2022-06-10 02:03:12,436 INFO Epoch 9.9941 Avg loss = 0.3822 mIoU = 0.4557 Time 8.04 (Total:8.04) Progress 0/474
+2022-06-10 02:09:21,995 INFO Epoch 10.0995 Avg loss = 0.3132 mIoU = 0.4714 Time 7.37 (Total:377.60) Progress 50/474
+2022-06-10 02:15:29,323 INFO Epoch 10.2049 Avg loss = 0.2948 mIoU = 0.4534 Time 7.36 (Total:744.93) Progress 100/474
+2022-06-10 02:21:36,115 INFO Epoch 10.3103 Avg loss = 0.2795 mIoU = 0.4887 Time 7.35 (Total:1111.72) Progress 150/474
+2022-06-10 02:27:42,901 INFO Epoch 10.4158 Avg loss = 0.3024 mIoU = 0.4747 Time 7.35 (Total:1478.51) Progress 200/474
+2022-06-10 02:33:52,343 INFO Epoch 10.5212 Avg loss = 0.3003 mIoU = 0.4757 Time 7.35 (Total:1847.95) Progress 250/474
+2022-06-10 02:40:01,400 INFO Epoch 10.6266 Avg loss = 0.3148 mIoU = 0.4502 Time 7.36 (Total:2217.01) Progress 300/474
+2022-06-10 02:46:09,214 INFO Epoch 10.7320 Avg loss = 0.2974 mIoU = 0.4722 Time 7.36 (Total:2584.82) Progress 350/474
+2022-06-10 02:52:16,809 INFO Epoch 10.8375 Avg loss = 0.3071 mIoU = 0.4883 Time 7.36 (Total:2952.42) Progress 400/474
+2022-06-10 02:58:24,189 INFO Epoch 10.9429 Avg loss = 0.2895 mIoU = 0.4760 Time 7.35 (Total:3319.80) Progress 450/474
+2022-06-10 03:01:12,939 INFO batch time: 7.35 total time: 3488.55
+2022-06-10 03:01:12,939 INFO Validating Epoch 10
+2022-06-10 03:09:19,208 INFO Epoch 10 Avg loss = 0.3056 mIoU = 0.1967 Time 486.27
+2022-06-10 03:09:19,208 INFO ==> Saving  ... epoch10 loss0.306 miou0.197 
+2022-06-10 03:09:19,372 INFO ==> Saving BEST ... epoch10 loss0.306 miou0.197 
+2022-06-10 03:09:19,587 INFO Epoch 11
+2022-06-10 03:09:19,587 INFO Training
+2022-06-10 03:09:27,521 INFO Epoch 10.9935 Avg loss = 0.3202 mIoU = 0.4948 Time 7.93 (Total:7.93) Progress 0/474
+2022-06-10 03:15:34,761 INFO Epoch 11.0989 Avg loss = 0.2905 mIoU = 0.4824 Time 7.33 (Total:375.17) Progress 50/474
+2022-06-10 03:21:41,630 INFO Epoch 11.2043 Avg loss = 0.3017 mIoU = 0.4663 Time 7.33 (Total:742.04) Progress 100/474
+2022-06-10 03:27:49,597 INFO Epoch 11.3097 Avg loss = 0.2801 mIoU = 0.4631 Time 7.34 (Total:1110.01) Progress 150/474
+2022-06-10 03:33:58,199 INFO Epoch 11.4152 Avg loss = 0.3059 mIoU = 0.4972 Time 7.35 (Total:1478.61) Progress 200/474
+2022-06-10 03:40:07,762 INFO Epoch 11.5206 Avg loss = 0.2744 mIoU = 0.4823 Time 7.35 (Total:1848.17) Progress 250/474
+2022-06-10 03:46:14,550 INFO Epoch 11.6260 Avg loss = 0.3034 mIoU = 0.4954 Time 7.35 (Total:2214.96) Progress 300/474
+2022-06-10 03:52:21,353 INFO Epoch 11.7314 Avg loss = 0.3013 mIoU = 0.4896 Time 7.35 (Total:2581.77) Progress 350/474
+2022-06-10 03:58:28,111 INFO Epoch 11.8369 Avg loss = 0.3109 mIoU = 0.4558 Time 7.35 (Total:2948.52) Progress 400/474
+2022-06-10 04:04:34,377 INFO Epoch 11.9423 Avg loss = 0.3254 mIoU = 0.4732 Time 7.34 (Total:3314.79) Progress 450/474
+2022-06-10 04:07:22,620 INFO batch time: 7.34 total time: 3483.03
+2022-06-10 04:07:22,620 INFO Validating Epoch 11
+2022-06-10 04:15:27,215 INFO Epoch 11 Avg loss = 0.3081 mIoU = 0.2017 Time 484.59
+2022-06-10 04:15:27,215 INFO ==> Saving BEST ... epoch11 loss0.308 miou0.202 
+2022-06-10 04:15:27,702 INFO Epoch 12
+2022-06-10 04:15:27,703 INFO Training
+2022-06-10 04:15:35,727 INFO Epoch 11.9929 Avg loss = 0.2794 mIoU = 0.4715 Time 8.02 (Total:8.02) Progress 0/474
+2022-06-10 04:21:44,418 INFO Epoch 12.0983 Avg loss = 0.2891 mIoU = 0.4573 Time 7.36 (Total:376.71) Progress 50/474
+2022-06-10 04:27:51,857 INFO Epoch 12.2037 Avg loss = 0.2869 mIoU = 0.4933 Time 7.35 (Total:744.15) Progress 100/474
+2022-06-10 04:33:59,320 INFO Epoch 12.3092 Avg loss = 0.2979 mIoU = 0.4641 Time 7.35 (Total:1111.62) Progress 150/474
+2022-06-10 04:40:06,011 INFO Epoch 12.4146 Avg loss = 0.3060 mIoU = 0.4749 Time 7.35 (Total:1478.31) Progress 200/474
+2022-06-10 04:46:13,904 INFO Epoch 12.5200 Avg loss = 0.3000 mIoU = 0.4559 Time 7.34 (Total:1846.20) Progress 250/474
+2022-06-10 04:52:19,843 INFO Epoch 12.6254 Avg loss = 0.3055 mIoU = 0.4827 Time 7.34 (Total:2212.14) Progress 300/474
+2022-06-10 04:58:26,436 INFO Epoch 12.7308 Avg loss = 0.2839 mIoU = 0.4821 Time 7.34 (Total:2578.73) Progress 350/474
+2022-06-10 05:04:32,569 INFO Epoch 12.8363 Avg loss = 0.2937 mIoU = 0.4616 Time 7.34 (Total:2944.87) Progress 400/474
+2022-06-10 05:10:38,482 INFO Epoch 12.9417 Avg loss = 0.2818 mIoU = 0.4957 Time 7.33 (Total:3310.78) Progress 450/474
+2022-06-10 05:13:26,559 INFO batch time: 7.33 total time: 3478.86
+2022-06-10 05:13:26,560 INFO Validating Epoch 12
+2022-06-10 05:21:30,897 INFO Epoch 12 Avg loss = 0.3000 mIoU = 0.1983 Time 484.34
+2022-06-10 05:21:30,898 INFO Epoch 13
+2022-06-10 05:21:30,898 INFO Training
+2022-06-10 05:21:38,971 INFO Epoch 12.9923 Avg loss = 0.2197 mIoU = 0.7055 Time 8.07 (Total:8.07) Progress 0/474
+2022-06-10 05:27:48,935 INFO Epoch 13.0977 Avg loss = 0.2772 mIoU = 0.4954 Time 7.38 (Total:378.04) Progress 50/474
+2022-06-10 05:33:57,302 INFO Epoch 13.2031 Avg loss = 0.3019 mIoU = 0.4602 Time 7.37 (Total:746.40) Progress 100/474
+2022-06-10 05:40:04,007 INFO Epoch 13.3086 Avg loss = 0.2915 mIoU = 0.4586 Time 7.36 (Total:1113.11) Progress 150/474
+2022-06-10 05:46:09,750 INFO Epoch 13.4140 Avg loss = 0.2904 mIoU = 0.4707 Time 7.35 (Total:1478.85) Progress 200/474
+2022-06-10 05:52:16,790 INFO Epoch 13.5194 Avg loss = 0.2913 mIoU = 0.4692 Time 7.34 (Total:1845.89) Progress 250/474
+2022-06-10 05:58:22,614 INFO Epoch 13.6248 Avg loss = 0.2944 mIoU = 0.4935 Time 7.34 (Total:2211.72) Progress 300/474
+2022-06-10 06:04:29,475 INFO Epoch 13.7302 Avg loss = 0.2885 mIoU = 0.4951 Time 7.34 (Total:2578.58) Progress 350/474
+2022-06-10 06:10:37,506 INFO Epoch 13.8357 Avg loss = 0.2687 mIoU = 0.5023 Time 7.34 (Total:2946.61) Progress 400/474
+2022-06-10 06:16:44,511 INFO Epoch 13.9411 Avg loss = 0.2752 mIoU = 0.4909 Time 7.34 (Total:3313.61) Progress 450/474
+2022-06-10 06:19:33,082 INFO batch time: 7.34 total time: 3482.18
+2022-06-10 06:19:33,083 INFO Validating Epoch 13
+2022-06-10 06:27:38,585 INFO Epoch 13 Avg loss = 0.2980 mIoU = 0.1974 Time 485.50
+2022-06-10 06:27:38,586 INFO Epoch 14
+2022-06-10 06:27:38,586 INFO Training
+2022-06-10 06:27:46,525 INFO Epoch 13.9917 Avg loss = 0.2829 mIoU = 0.5805 Time 7.94 (Total:7.94) Progress 0/474
+2022-06-10 06:33:55,172 INFO Epoch 14.0971 Avg loss = 0.2829 mIoU = 0.4901 Time 7.36 (Total:376.59) Progress 50/474
+2022-06-10 06:40:01,946 INFO Epoch 14.2025 Avg loss = 0.2937 mIoU = 0.4713 Time 7.35 (Total:743.36) Progress 100/474
+2022-06-10 06:46:06,944 INFO Epoch 14.3080 Avg loss = 0.2880 mIoU = 0.4943 Time 7.33 (Total:1108.36) Progress 150/474
+2022-06-10 06:52:12,529 INFO Epoch 14.4134 Avg loss = 0.2708 mIoU = 0.4775 Time 7.33 (Total:1473.94) Progress 200/474
+2022-06-10 06:58:21,071 INFO Epoch 14.5188 Avg loss = 0.2823 mIoU = 0.4879 Time 7.33 (Total:1842.48) Progress 250/474
+2022-06-10 07:04:29,242 INFO Epoch 14.6242 Avg loss = 0.2920 mIoU = 0.4800 Time 7.34 (Total:2210.66) Progress 300/474
+2022-06-10 07:10:52,733 INFO Epoch 14.7297 Avg loss = 0.2816 mIoU = 0.4993 Time 7.38 (Total:2594.15) Progress 350/474
+2022-06-10 07:17:29,027 INFO Epoch 14.8351 Avg loss = 0.2884 mIoU = 0.4924 Time 7.45 (Total:2990.44) Progress 400/474
+2022-06-10 07:24:32,073 INFO Epoch 14.9405 Avg loss = 0.2934 mIoU = 0.4929 Time 7.56 (Total:3413.49) Progress 450/474
+2022-06-10 07:27:42,289 INFO batch time: 7.60 total time: 3603.70
+2022-06-10 07:27:42,289 INFO Validating Epoch 14
+2022-06-10 07:36:13,513 INFO Epoch 14 Avg loss = 0.3020 mIoU = 0.2010 Time 511.22
+2022-06-10 07:36:13,513 INFO Epoch 15
+2022-06-10 07:36:13,514 INFO Training
+2022-06-10 07:36:21,139 INFO Epoch 14.9911 Avg loss = 0.1681 mIoU = 0.5369 Time 7.62 (Total:7.62) Progress 0/474
+2022-06-10 07:42:48,579 INFO Epoch 15.0965 Avg loss = 0.2932 mIoU = 0.5047 Time 7.71 (Total:395.06) Progress 50/474
+2022-06-10 07:49:31,749 INFO Epoch 15.2020 Avg loss = 0.2806 mIoU = 0.4977 Time 7.89 (Total:798.23) Progress 100/474
+2022-06-10 07:56:13,938 INFO Epoch 15.3074 Avg loss = 0.2971 mIoU = 0.4864 Time 7.94 (Total:1200.42) Progress 150/474
+2022-06-10 08:02:54,662 INFO Epoch 15.4128 Avg loss = 0.2760 mIoU = 0.4817 Time 7.96 (Total:1601.15) Progress 200/474
+2022-06-10 08:08:57,451 INFO Epoch 15.5182 Avg loss = 0.2812 mIoU = 0.4708 Time 7.81 (Total:1963.94) Progress 250/474
+2022-06-10 08:15:40,370 INFO Epoch 15.6236 Avg loss = 0.2879 mIoU = 0.4906 Time 7.85 (Total:2366.86) Progress 300/474
+2022-06-10 08:26:27,136 INFO Epoch 15.7291 Avg loss = 0.2927 mIoU = 0.5076 Time 8.58 (Total:3013.62) Progress 350/474
+

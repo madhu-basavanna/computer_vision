@@ -1,0 +1,30 @@
+(cv) madhu@madhu:~/Desktop/dl_lab/cv_assignment$ python dt_multiclass_ss.py '/home/madhu/Desktop/dl_lab/cv_assignment/data/COCO_mini5class_medium' --pretrained_model_path='/home/madhu/Desktop/dl_lab/cv_assignment/data/binary_segmentation.pth'
+loading dataset...
+loading dataset...
+2022-06-09 13:27:35,512 INFO data_folder = /home/madhu/Desktop/dl_lab/cv_assignment/data/COCO_mini5class_medium  
+pretrained_model_path = /home/madhu/Desktop/dl_lab/cv_assignment/data/binary_segmentation.pth  
+output_root = results  
+lr = 0.001  
+bs = 32  
+size = 256  
+snapshot_freq = 5  
+exp_suffix =   
+exp_name = lr0.001_bs32__local  
+jobid = local  
+output_folder = results/dt_multiclass/lr0.001_bs32__local  
+model_folder = results/dt_multiclass/lr0.001_bs32__local/models  
+logs_folder = results/dt_multiclass/lr0.001_bs32__local/logs
+2022-06-09 13:27:35,513 INFO train_data 15177
+2022-06-09 13:27:35,513 INFO val_data 3000
+2022-06-09 13:27:35,513 INFO Epoch 0
+2022-06-09 13:27:35,513 INFO Training
+2022-06-09 13:27:43,599 INFO Epoch 0.0000 Avg loss = 1.5987 mIoU = 0.0297 Time 8.09 (Total:8.09) Progress 0/474
+2022-06-09 13:34:06,601 INFO Epoch 0.1054 Avg loss = 0.8425 mIoU = 0.0400 Time 7.64 (Total:391.09) Progress 50/474
+2022-06-09 13:40:19,176 INFO Epoch 0.2108 Avg loss = 0.5330 mIoU = 0.1876 Time 7.55 (Total:763.66) Progress 100/474
+2022-06-09 13:46:20,766 INFO Epoch 0.3163 Avg loss = 0.4782 mIoU = 0.2379 Time 7.44 (Total:1125.25) Progress 150/474
+2022-06-09 13:52:20,732 INFO Epoch 0.4217 Avg loss = 0.4459 mIoU = 0.2740 Time 7.38 (Total:1485.22) Progress 200/474
+2022-06-09 13:58:21,851 INFO Epoch 0.5271 Avg loss = 0.4322 mIoU = 0.2992 Time 7.35 (Total:1846.34) Progress 250/474
+2022-06-09 14:04:22,570 INFO Epoch 0.6325 Avg loss = 0.4167 mIoU = 0.3269 Time 7.32 (Total:2207.06) Progress 300/474
+2022-06-09 14:11:01,410 INFO Epoch 0.7380 Avg loss = 0.4166 mIoU = 0.3411 Time 7.42 (Total:2605.90) Progress 350/474
+2022-06-09 14:17:25,866 INFO Epoch 0.8434 Avg loss = 0.4286 mIoU = 0.3264 Time 7.45 (Total:2990.35) Progress 400/474
+

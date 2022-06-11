@@ -1,0 +1,325 @@
+(cv) manu@manu-Lenovo-Legion-5-15IMH05:~/Downloads/cv_assignment$ python pretrain.py 
+{'bs': 32,
+ 'data_folder': '/home/manu/Downloads/cv_assignment/data/crops/images/256',
+ 'dataset_size': 60000,
+ 'epochs': 10,
+ 'exp_name': 'lr0.0005_bs32__local',
+ 'exp_suffix': '',
+ 'global_crops_scale': (0.4, 1.0),
+ 'jobid': 'local',
+ 'local_crops_number': 4,
+ 'local_crops_scale': (0.05, 0.4),
+ 'logs_folder': 'results/lr0.0005_bs32__local/logs',
+ 'lr': 0.0005,
+ 'min_lr': 1e-06,
+ 'model_folder': 'results/lr0.0005_bs32__local/models',
+ 'momentum_teacher': 0.996,
+ 'out_dim': 128,
+ 'output_folder': 'results/lr0.0005_bs32__local',
+ 'output_root': 'results',
+ 'schedule': 'cosine',
+ 'snapshot_freq': 1,
+ 'teacher_temp': 0.04,
+ 'warmup_teacher_temp': 0.01,
+ 'warmup_teacher_temp_epochs': 1,
+ 'weight_decay': 0.04,
+ 'weight_decay_end': 0.4}
+
+Validating
+Mean validation loss = 4.406457673788074
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:795: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  warnings.warn(
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:805: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  warnings.warn(
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Epoch 0
+Training
+Avg loss = 4.052725315093994
+Avg loss = 0.5388930095359684
+Avg loss = 0.006709897262044249
+Avg loss = 0.005251481626182795
+Avg loss = 0.004380760416388511
+Avg loss = 0.0037174358079209934
+Avg loss = 0.003193597849458456
+Avg loss = 0.0027706166519783433
+Avg loss = 0.0024262072122655815
+Avg loss = 0.0021397114591673026
+Avg loss = 0.0019001827260944988
+Avg loss = 0.0016980604967102412
+Avg loss = 0.0015249994746409353
+Avg loss = 0.0013761738466564566
+Avg loss = 0.0012465165788307787
+Avg loss = 0.0011340589169412856
+Avg loss = 0.0010355977748986334
+Avg loss = 0.0009481202421011403
+Avg loss = 0.000870534386485815
+==> Saving...
+Validating
+Mean validation loss = 0.0007941154014552006
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:795: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  warnings.warn(
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:805: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  warnings.warn(
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Epoch 1
+Training
+Avg loss = 0.0007842557388357818
+Avg loss = 0.0007542447641026233
+Avg loss = 0.0006975286762462928
+Avg loss = 0.000646190957049839
+Avg loss = 0.0005997128953458743
+Avg loss = 0.0005576760397525503
+Avg loss = 0.0005193835450336337
+Avg loss = 0.0004844381244038233
+Avg loss = 0.0004526026052189991
+Avg loss = 0.0004233816376654432
+Avg loss = 0.0003966098852106373
+Avg loss = 0.0003719255534815601
+Avg loss = 0.0003491589552140797
+Avg loss = 0.0003281814313959329
+Avg loss = 0.00030878852354362604
+Avg loss = 0.0002907498841523195
+Avg loss = 0.0002740844941581599
+Avg loss = 0.0002585692986031062
+Avg loss = 0.0002442152380535844
+==> Saving...
+Validating
+Mean validation loss = 0.0002294173454138217
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:795: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  warnings.warn(
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:805: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  warnings.warn(
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Epoch 2
+Training
+Avg loss = 0.00022781468578614295
+Avg loss = 0.00022124657465610656
+Avg loss = 0.00020934006723109634
+Avg loss = 0.00019818949600448833
+Avg loss = 0.00018784236570354557
+Avg loss = 0.00017803373775677757
+Avg loss = 0.00016886874451301992
+Avg loss = 0.0001603127717680763
+Avg loss = 0.00015222018148051576
+Avg loss = 0.00014467281871475285
+Avg loss = 0.0001375731122971046
+Avg loss = 0.00013088559484458534
+Avg loss = 0.00012452659480914003
+Avg loss = 0.00011853535637783352
+Avg loss = 0.00011287309454928617
+Avg loss = 0.00010760935867438093
+Avg loss = 0.00010260861665301492
+Avg loss = 9.787145652808248e-05
+Avg loss = 9.337883202533705e-05
+==> Saving...
+Validating
+Mean validation loss = 8.877991924964595e-05
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:795: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  warnings.warn(
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:805: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  warnings.warn(
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Epoch 3
+Training
+Avg loss = 8.813536260277033e-05
+Avg loss = 8.612683508545162e-05
+Avg loss = 8.22947655979078e-05
+Avg loss = 7.867294269090051e-05
+Avg loss = 7.522313098888845e-05
+Avg loss = 7.190724842075723e-05
+Avg loss = 6.87221071711974e-05
+Avg loss = 6.572540565684901e-05
+Avg loss = 6.290867226198313e-05
+Avg loss = 6.025538958056131e-05
+Avg loss = 5.773490891442634e-05
+Avg loss = 5.533203173399669e-05
+Avg loss = 5.3055462194606656e-05
+Avg loss = 5.089505219075364e-05
+Avg loss = 4.8833340224518905e-05
+Avg loss = 4.686270378442714e-05
+Avg loss = 4.498991140280849e-05
+Avg loss = 4.319599516747986e-05
+Avg loss = 4.145969200180843e-05
+==> Saving...
+Validating
+Mean validation loss = 3.96690258203306e-05
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:795: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  warnings.warn(
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:805: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  warnings.warn(
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Epoch 4
+Training
+Avg loss = 3.940608803532086e-05
+Avg loss = 3.859891370666446e-05
+Avg loss = 3.71122260185075e-05
+Avg loss = 3.568603908206567e-05
+Avg loss = 3.4325774431636096e-05
+Avg loss = 3.3010206934704924e-05
+Avg loss = 3.178199265676084e-05
+Avg loss = 3.0625370563939226e-05
+Avg loss = 2.9463572809618195e-05
+Avg loss = 2.837873991666128e-05
+Avg loss = 2.7348662806616635e-05
+Avg loss = 2.6355504342063796e-05
+Avg loss = 2.545645857026103e-05
+Avg loss = 2.453765377140371e-05
+Avg loss = 2.3617491278855597e-05
+Avg loss = 2.2797857309342355e-05
+Avg loss = 2.2009488820913247e-05
+Avg loss = 2.1191830546740677e-05
+Avg loss = 2.043608608801151e-05
+==> Saving...
+Validating
+Mean validation loss = 1.9698175547091498e-05
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:795: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  warnings.warn(
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:805: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  warnings.warn(
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Epoch 5
+Training
+Avg loss = 1.9591856471379288e-05
+Avg loss = 1.9275069607829206e-05
+Avg loss = 1.8579899206088156e-05
+Avg loss = 1.790396527212579e-05
+Avg loss = 1.7309837021457492e-05
+Avg loss = 1.6802686604933112e-05
+Avg loss = 1.6263644210994235e-05
+Avg loss = 1.5744707980047682e-05
+Avg loss = 1.5232883342832792e-05
+Avg loss = 1.474310424782743e-05
+Avg loss = 1.4312973798951137e-05
+Avg loss = 1.3828252876919578e-05
+Avg loss = 1.3357732996155391e-05
+Avg loss = 1.2952470924574293e-05
+Avg loss = 1.248757243047293e-05
+Avg loss = 1.2030965062876931e-05
+Avg loss = 1.1682673020914079e-05
+Avg loss = 1.1354612615832598e-05
+Avg loss = 1.1014684814654172e-05
+==> Saving...
+Validating
+Mean validation loss = 1.0736229114627373e-05
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:795: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  warnings.warn(
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:805: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  warnings.warn(
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Epoch 6
+Training
+Avg loss = 1.0697486686694901e-05
+Avg loss = 1.0558068506725245e-05
+Avg loss = 1.0302450018571113e-05
+Avg loss = 9.94556607111008e-06
+Avg loss = 9.631133470975332e-06
+Avg loss = 9.339322523373991e-06
+Avg loss = 9.118295201915316e-06
+Avg loss = 8.87251038875547e-06
+Avg loss = 8.618169258625129e-06
+Avg loss = 8.389742924919114e-06
+Avg loss = 8.185919687093705e-06
+Avg loss = 7.9561203438061e-06
+Avg loss = 7.758193150948504e-06
+Avg loss = 7.4689814755402035e-06
+Avg loss = 7.289457803381083e-06
+Avg loss = 7.153563483370817e-06
+Avg loss = 6.98425390964985e-06
+Avg loss = 6.868767841297087e-06
+Avg loss = 6.686762135359457e-06
+==> Saving...
+Validating
+Mean validation loss = 6.469419324275802e-06
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:795: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  warnings.warn(
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:805: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  warnings.warn(
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Epoch 7
+Training
+Avg loss = 6.4447312979609706e-06
+Avg loss = 6.348525967041494e-06
+Avg loss = 6.21290847448108e-06
+Avg loss = 6.05732613166765e-06
+Avg loss = 5.948466082372758e-06
+Avg loss = 5.856734678673092e-06
+Avg loss = 5.750009877374396e-06
+Avg loss = 5.563903550864778e-06
+Avg loss = 5.4470639679493615e-06
+Avg loss = 5.374838083298527e-06
+Avg loss = 5.293980866554194e-06
+Avg loss = 5.110846473144193e-06
+Avg loss = 4.985297387065652e-06
+Avg loss = 4.903711351289531e-06
+Avg loss = 4.876095772488042e-06
+Avg loss = 4.803813985745363e-06
+Avg loss = 4.736777700600213e-06
+Avg loss = 4.633915023077862e-06
+Avg loss = 4.549116247289932e-06
+==> Saving...
+Validating
+Mean validation loss = 4.530824689481956e-06
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:795: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  warnings.warn(
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:805: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  warnings.warn(
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Epoch 8
+Training
+Avg loss = 4.530687419901369e-06
+Avg loss = 4.503925133576557e-06
+Avg loss = 4.4366578231347395e-06
+Avg loss = 4.411829154378208e-06
+Avg loss = 4.356636372904177e-06
+Avg loss = 4.235720948599921e-06
+Avg loss = 4.175196468167997e-06
+Avg loss = 4.116617042200232e-06
+Avg loss = 4.036083719256567e-06
+Avg loss = 3.914043441000104e-06
+Avg loss = 3.842834657916684e-06
+Avg loss = 3.821239115495702e-06
+Avg loss = 3.810126588632557e-06
+Avg loss = 3.7311878440959844e-06
+Avg loss = 3.634784952737391e-06
+Avg loss = 3.582548936265084e-06
+Avg loss = 3.556758761078527e-06
+Avg loss = 3.529300015543412e-06
+Avg loss = 3.482652559796405e-06
+==> Saving...
+Validating
+Mean validation loss = 3.4322322967454934e-06
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:795: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  warnings.warn(
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:805: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  warnings.warn(
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Epoch 9
+Training
+Avg loss = 3.3955964227061486e-06
+Avg loss = 3.37652687676382e-06
+Avg loss = 3.3503418717373272e-06
+Avg loss = 3.3418146813346535e-06
+Avg loss = 3.3394454158042195e-06
+Avg loss = 3.3384209291398296e-06
+Avg loss = 3.3369084530932023e-06
+Avg loss = 3.3150596436826155e-06
+Avg loss = 3.274737105130043e-06
+Avg loss = 3.2435787829854225e-06
+Avg loss = 3.2092989727061646e-06
+Avg loss = 3.1672889144829248e-06
+Avg loss = 3.1344169542535376e-06
+Avg loss = 3.1094985070012636e-06
+Avg loss = 3.088827368173952e-06
+Avg loss = 3.070618668061797e-06
+Avg loss = 3.053571631426166e-06
+Avg loss = 3.035544755221053e-06
+Avg loss = 3.004032530498079e-06
+==> Saving...
+Validating
+Mean validation loss = 2.9766396794457283e-06
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:795: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  warnings.warn(
+/home/manu/miniconda3/envs/cv/lib/python3.8/site-packages/sklearn/manifold/_t_sne.py:805: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  warnings.warn(
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+

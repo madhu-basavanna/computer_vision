@@ -1,0 +1,2 @@
+python dt_multiclass_ss.py '/home/madhu/Desktop/dl_lab/cv_assignment/data/COCO_mini5class_medium' --pretrained_model_path='/home/madhu/Desktop/dl_lab/cv_assignment/data/binary_segmentation .pth'
+
